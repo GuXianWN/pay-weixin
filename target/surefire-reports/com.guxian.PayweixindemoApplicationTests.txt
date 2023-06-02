@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.guxian.PayweixindemoApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.315 s - in com.guxian.PayweixindemoApplicationTests

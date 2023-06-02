@@ -1,0 +1,21 @@
+server:
+  port: 8090
+spring:
+  jackson:
+    #设置时间格式和时区
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: payment
+    password:
+    url:
+    # 数据库连接池
+# Mybatis SQL打印(方法接口所在的包，不是Mapper.xml)
+logging:
+  level:
+    com.guxian.mapper: debug
+
+# mybatis-plus配置
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
